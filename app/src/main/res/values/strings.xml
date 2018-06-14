@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">QazLingo</string>
+    <string name="yandexLink"><a href="http://translate.yandex.ru/">Переведено сервисом «Яндекс.Переводчик»"</a></string>
+    <string-array name="langlist">
+        <item>Қазақша</item>
+        <item>Русский</item>
+        <item>English</item>
+    </string-array>
+</resources>

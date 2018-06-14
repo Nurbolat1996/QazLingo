@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/grayBackground">
+
+
+    <Button
+        android:id="@+id/button_menu_alippe"
+        android:layout_width="200dp"
+        android:layout_height="58dp"
+        android:layout_above="@+id/button_menu_converter"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="30dp"
+        android:background="@drawable/button_alippe"
+        android:elevation="2dp"/>
+
+    <Button
+        android:id="@+id/button_menu_converter"
+        android:layout_width="200dp"
+        android:layout_height="58dp"
+        android:layout_alignEnd="@+id/button_menu_alippe"
+        android:layout_centerVertical="true"
+        android:background="@drawable/button_converter"
+        />
+
+    <Button
+        android:id="@+id/button_menu_fact"
+        android:layout_width="200dp"
+        android:layout_height="58dp"
+        android:layout_alignStart="@+id/button_menu_translator"
+        android:layout_below="@+id/button_menu_translator"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/button_facts"/>
+
+    <Button
+        android:id="@+id/button_menu_translator"
+        android:layout_width="200dp"
+        android:layout_height="58dp"
+        android:layout_alignStart="@+id/button_menu_converter"
+        android:layout_below="@+id/button_menu_converter"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/button_translator"/>
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/button_menu_alippe"
+        android:src="@drawable/name_logo" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="7dp"
+        android:text="www.qazlingo.kz" />
+
+
+</RelativeLayout>

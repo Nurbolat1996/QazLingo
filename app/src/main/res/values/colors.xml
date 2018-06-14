@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#095eb4</color>
+    <color name="blueTranslator">#3d8fe2</color>
+    <color name="alippe_menu_button_text_color">#050505</color>
+    <color name="grayBackground">#f4f3f3</color>
+    <color name="wrongAnswer">#f24949</color>
+    <color name="rightAnswer">#30e74f</color>
+    <color name="whiteNeitral">#ffffff</color>
+    <color name="doneColor">#54587b</color>
+
+</resources>

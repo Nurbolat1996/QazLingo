@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/grayBackground">
+
+    <TextView
+        android:id="@+id/alippe_low_level_text_view_lenta"
+        android:layout_width="match_parent"
+        android:background="@color/grayBackground"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:textColor="#2d2c2c"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp"
+        android:textSize="16sp"
+        android:text="Әріптің латынша нұсқасын еңгізіңіз"
+         />
+
+    <TextView
+        android:id="@+id/alippe_low_level_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="224dp"
+        android:textSize="32sp"
+        android:text="А" />
+
+    <EditText
+        android:id="@+id/alippe_low_level_edit_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_below="@+id/alippe_low_level_text_view"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="21dp"
+        android:ems="10"
+        android:hint="Латынша еңгізіңіз"
+        android:maxLength="5"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/alippe_low_level_button"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="92dp"
+        android:background="@drawable/button"
+        android:text="Келесі" />
+
+    <TextView
+        android:id="@+id/alippe_low_level_text_view_right_answer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/alippe_low_level_edit_text"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="66dp"
+        android:textSize="20sp"
+        android:text="Дұрыс жауап:" />
+
+
+</RelativeLayout>

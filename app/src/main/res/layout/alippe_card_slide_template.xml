@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/slide_linear_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@color/alippe_menu_button_text_color">
+
+    <ImageView
+        android:id="@+id/slide_image"
+        android:layout_width="300dp"
+        android:adjustViewBounds="true"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Title Here"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:textColor="#865454"
+        android:layout_marginTop="40dp"/>
+    <TextView
+        android:id="@+id/tv_description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="A a ➜ A a"
+        android:textColor="#865454"
+        android:textAlignment="center"
+        android:textSize="25sp"
+        android:layout_marginTop="40dp"
+        />
+
+</LinearLayout>
